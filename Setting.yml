@@ -1,0 +1,21 @@
+%YAML:1.0
+
+Objects: ["void", "wall", "floor", "picture", "cabinet",
+    "chair", "table", "window", "door", "ceiling",
+    "box", "lamp", "bag", "counter", "bed",
+    "books", "blinds", "shelves", "clothes", "bookshelf",
+    "desk", "sink", "faucet", "bin", "curtain",
+    "towel", "mirror", "bowl", "television", "monitor",
+    "plant", "jar", "refrigerator", "stove", "printer",
+    "toilet", "container", "candlestick", "oven", "bathtub",
+    "keyboard", "computer"]
+
+ObjectsNoTrain: ["sofa"]
+
+Materials: ["wood", "painted", "cotton", "paper", "glass", "brick", "metal", "leather", "plastic"]
+
+Colors: ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"]
+
+Positions: ["top-left", "top-middle", "top-right", "center-left", "center-middle", "center-right", "bottom-left", "bottom-middle", "bottom-right"]
+
+Actions: ["Change", "Move", "Make", "Activate", "Repeat", "down", "up", "left", "right", "smaller", "larger", "taller", "lower", "from", "to"]

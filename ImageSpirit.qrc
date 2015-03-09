@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/ImageSpirit">
+    <file>Resources/brush.png</file>
+    <file>Resources/fill.png</file>
+    <file>Resources/Mark.png</file>
+    <file>Resources/Line.png</file>
+    <file>Resources/Stop.png</file>
+    <file>Resources/Analysis.png</file>
+    <file>Resources/Attri.png</file>
+    <file>Resources/Edit.png</file>
+    <file>Resources/Layout.png</file>
+    <file>Resources/Objects.png</file>
+    <file>Resources/open.png</file>
+    <file>Resources/save.png</file>
+    <file>Resources/Source.png</file>
+  </qresource>
+</RCC>

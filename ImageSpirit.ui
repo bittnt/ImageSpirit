@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageSpiritClass</class>
+ <widget class="QMainWindow" name="ImageSpiritClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ImageSpirit</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="comboBoxAttributes">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionImage"/>
+    <addaction name="actionObjects"/>
+    <addaction name="actionSoftTarget"/>
+    <addaction name="actionResults"/>
+    <addaction name="actionUserMark"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionEdit"/>
+    <addaction name="actionFinished"/>
+    <addaction name="actionInPainting"/>
+    <addaction name="actionExportOldData"/>
+   </widget>
+   <widget class="QMenu" name="menuTools_2">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionLine"/>
+    <addaction name="actionBrush"/>
+    <addaction name="actionFill"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuTools_2"/>
+   <addaction name="menuView"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="separator"/>
+   <addaction name="actionEdit"/>
+   <addaction name="actionFinished"/>
+   <addaction name="actionInPainting"/>
+   <addaction name="separator"/>
+   <addaction name="actionLine"/>
+   <addaction name="actionBrush"/>
+   <addaction name="actionFill"/>
+   <addaction name="separator"/>
+   <addaction name="actionImage"/>
+   <addaction name="actionObjects"/>
+   <addaction name="actionSoftTarget"/>
+   <addaction name="actionResults"/>
+   <addaction name="actionUserMark"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/open.png</normaloff>:/ImageSpirit/Resources/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/save.png</normaloff>:/ImageSpirit/Resources/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionImage">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Source.png</normaloff>:/ImageSpirit/Resources/Source.png</iconset>
+   </property>
+   <property name="text">
+    <string>Image</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+I</string>
+   </property>
+  </action>
+  <action name="actionSoftTarget">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Layout.png</normaloff>:/ImageSpirit/Resources/Layout.png</iconset>
+   </property>
+   <property name="text">
+    <string>Soft target</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+S</string>
+   </property>
+  </action>
+  <action name="actionObjects">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Objects.png</normaloff>:/ImageSpirit/Resources/Objects.png</iconset>
+   </property>
+   <property name="text">
+    <string>Objects</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+O</string>
+   </property>
+  </action>
+  <action name="actionResults">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Attri.png</normaloff>:/ImageSpirit/Resources/Attri.png</iconset>
+   </property>
+   <property name="text">
+    <string>Results</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
+   </property>
+  </action>
+  <action name="actionEdit">
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Edit.png</normaloff>:/ImageSpirit/Resources/Edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionFinished">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Stop.png</normaloff>:/ImageSpirit/Resources/Stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Finished</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionUserMark">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Mark.png</normaloff>:/ImageSpirit/Resources/Mark.png</iconset>
+   </property>
+   <property name="text">
+    <string>User Mark</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+M</string>
+   </property>
+  </action>
+  <action name="actionInPainting">
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Analysis.png</normaloff>:/ImageSpirit/Resources/Analysis.png</iconset>
+   </property>
+   <property name="text">
+    <string>In-Painting</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionExportOldData">
+   <property name="text">
+    <string>ExportOldData</string>
+   </property>
+  </action>
+  <action name="actionLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/Line.png</normaloff>:/ImageSpirit/Resources/Line.png</iconset>
+   </property>
+   <property name="text">
+    <string>Line</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionBrush">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/brush.png</normaloff>:/ImageSpirit/Resources/brush.png</iconset>
+   </property>
+   <property name="text">
+    <string>Brush</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionFill">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ImageSpirit.qrc">
+     <normaloff>:/ImageSpirit/Resources/fill.png</normaloff>:/ImageSpirit/Resources/fill.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fill</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ImageSpirit.qrc"/>
+ </resources>
+ <connections/>
+</ui>
