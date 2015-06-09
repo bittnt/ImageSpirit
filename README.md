@@ -1,6 +1,5 @@
 # ImageSpirit Source code
 This is the software bundle "ImageSpirit", created and maintained by:
-
   Shuia Zheng <szheng@robots.ox.ac.uk>
   Ming Ming Cheng <cmm.thu@gmail.com>
 
