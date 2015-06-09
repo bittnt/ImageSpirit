@@ -47,5 +47,10 @@ year = {2014}
 }
 ```
 
-License:
-Commercial usage is forbidden 
+4. License
+----------------------
+This software is free for non-commercial use. Commercial usage is forbidden at this stage.
+
+
+
+
