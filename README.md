@@ -53,10 +53,11 @@ year = {2014}
 ----------------------
 This software is free for non-commercial use. Any commercial use is strictly prohibited. 
 
-This software has used  DenseCRF software from Philipp Krähenbühl et al. and Permutohedral lattice software from Andrew Adams et al. Please also refer to their publications if this software is in use.
+This software has used DenseCRF software from Philipp Krähenbühl et al. and Permutohedral lattice software from Andrew Adams et al. Please also refer to their publications if this software is in use.
 http://www.philkr.net/
 http://people.csail.mit.edu/abadams/
 
+Some part of the higher order potential implementation has also related to the implementation from Vibhav Vineet et al. Please refer to http://www.robots.ox.ac.uk/~tvg/publications.php
 
 
 
