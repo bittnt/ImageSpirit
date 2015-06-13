@@ -14,8 +14,11 @@ This code is tested under Windows 8.1 system with Visual Studio 2010 and Visual 
 ----------------------
 You open the sln file with visual studio, then compile it, if you set up all the paths.
 
+3. Functions
+----------------------
+This software contains the implementation of using factorial DenseCRF in the application of semantic image segmentation. Further image editing application can be done with the CmmCode library.
 
-3. Reference
+4. Reference
 ----------------------
 If you found the software is useful, please refer to:
 ```tex
@@ -46,9 +49,17 @@ year = {2014}
 }
 ```
 
-4. License
+5. License
 ----------------------
-This software is free for non-commercial use. Commercial usage is forbidden at this stage.
+This software is free for non-commercial use. Any commercial use is strictly prohibited. 
+
+This software has used  DenseCRF software from Philipp Krähenbühl et al. and Permutohedral lattice software from Andrew Adams et al. Please also refer to their publications if this software is in use.
+http://www.philkr.net/
+http://people.csail.mit.edu/abadams/
+
+
+
+
 
 
 
