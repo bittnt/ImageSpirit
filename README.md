@@ -59,6 +59,9 @@ http://people.csail.mit.edu/abadams/
 
 Some part of the higher order potential implementation has also related to the implementation from Vibhav Vineet et al. Please refer to http://www.robots.ox.ac.uk/~tvg/publications.php
 
+You can use the unary potential from ALE. 
+Stable version: http://www.robots.ox.ac.uk/~phst/ale.htm
+Latest version: http://www.inf.ethz.ch/personal/ladickyl/ALE.zip
 
 
 
