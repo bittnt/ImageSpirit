@@ -4,9 +4,10 @@ This is the software bundle "ImageSpirit", created and maintained by:
   Ming Ming Cheng <cmm.thu@gmail.com>
 
 
-1. Building the System
+1. Dependencies
 ----------------------
-This code is tested under Windows 8.1 system with Visual Studio 2010 and Visual Studio 2012. You are required to have OpenCV 2.4 and Qt 4.8 installed. 
+This code is tested under Windows 8.1 system with Visual Studio 2010 and Visual Studio 2012. You are required to have OpenCV 2.4 and Qt 4.8 installed. For Qt 4.8, you may find BlueGo will be useful to help installing Qt4.8. The code may not work well with Qt 5.0+ at the moment.
+>https://bitbucket.org/Vertexwahn/bluego
 
 
 
